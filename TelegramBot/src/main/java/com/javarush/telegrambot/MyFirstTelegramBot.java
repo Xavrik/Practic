@@ -91,7 +91,7 @@ public class MyFirstTelegramBot extends MultiSessionTelegramBot {
             ));
         }
 
-        //TODO 5 - хвастаться дворовым котам
+        //DONE TODO 5 - хвастаться дворовым котам
         if(getCallbackQueryButtonKey().equals("step_8_btn")){
             setUserGlory(50);
             sendPhotoMessageAsync("final_pic");
