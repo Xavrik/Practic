@@ -1,6 +1,6 @@
 package org.example.exercism.CarsAssemble;
 
-import lombok.extern.slf4j.Slf4j;
+//import lombok.extern.slf4j.Slf4j;
 
 public class CarsAssemble {
     public double productionRatePerHour(int speed) {
